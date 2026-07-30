@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the associated IEEE conference paper."
+title: "Experimental Evaluation of Cross-Domain Data Synchronization Architectures Under Consistency and Failure Constraints"
+version: "v1.0.0"
+date-released: "2026-07-30"
+type: software
+authors:
+  - family-names: "Author"
+    given-names: "Given"
+    orcid: "ORCID pending"
+conference:
+  name: "ICITCE 2026"
+doi: "DOI pending"
+repository-code: "Repository URL pending"
+license: "MIT"

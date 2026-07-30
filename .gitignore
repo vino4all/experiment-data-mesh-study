@@ -1,0 +1,126 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.crt
+*.cer
+credentials.*
+secrets.*
+**/secrets/
+docker-compose.override.yml
+compose.override.yml
+
+# Node.js dependencies and caches
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+coverage/
+.nyc_output/
+dist/
+build/
+.cache/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Logs, temporary files, and backups
+logs/
+*.log
+tmp/
+temp/
+.tmp/
+*.tmp
+*.bak
+*.orig
+*.swp
+*.swo
+*~
+
+# Local service and database runtime state
+postgres-data/
+kafka-data/
+zookeeper-data/
+prometheus-data/
+grafana-data/
+data/
+volumes/
+*.db
+*.sqlite
+*.sqlite3
+*.pid
+
+# Generated experiment output outside approved public artifacts
+results/*
+!results/final/
+!results/final/**
+raw-results/
+intermediate-results/
+exports/
+paper/
+docs/ieee-paper-draft.md
+
+# Local workflow prompts
+.github/
+
+# Archives, installers, and release staging
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.iso
+*.exe
+*.msi
+*.dmg
+release-staging/
+
+# Manuscript builds and review material
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.doc
+*.docx
+*.pdf
+plagiarism*/
+crosscheck*/
+reviews*/
+camera-ready*/
+submission*/
+
+# Editor and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git patches and backups
+*.patch
+*.diff

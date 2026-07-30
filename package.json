@@ -1,0 +1,31 @@
+{
+  "name": "data-mesh-consistency-study",
+  "version": "1.0.0",
+  "description": "Empirical evaluation of cross-domain data-sharing patterns in Data Mesh architectures",
+  "private": true,
+  "scripts": {
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "seed:data": "node scripts/seed-data.js",
+    "smoke": "node scripts/run-smoke-test.js",
+    "test:api": "k6 run load-tests/api-direct-k6.js",
+    "test:event": "k6 run load-tests/event-projection-k6.js",
+    "test:batch": "k6 run load-tests/batch-replication-k6.js",
+    "test:mixed": "k6 run load-tests/mixed-workload-k6.js",
+    "experiments:final": "node scripts/run-final-validation-experiments.js",
+    "results:validate": "python scripts/results_validator.py"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "pg": "^8.16.3",
+    "pngjs": "^7.0.0"
+  },
+  "workspaces": [
+    "services/client-service",
+    "services/orders-service",
+    "services/orders-projection-consumer",
+    "services/batch-sync-worker"
+  ]
+}

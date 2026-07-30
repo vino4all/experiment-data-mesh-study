@@ -1,0 +1,5 @@
+pattern,freshness_component,latency_component,throughput_component,recovery_component,api_dependency_component,architecture_effectiveness_score
+API,1,0,0,1,0,0.44999999999999996
+Projection,0,1,1,1,1,0.7000000000000001
+Batch,1,0.9565217391304348,0.9160550270822093,1,1,0.9745153532425288
+Hybrid,0.4703674688495467,0.8152173913043478,0.6570538303367968,1,0.65,0.683064484983093

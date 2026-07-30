@@ -1,0 +1,5 @@
+pattern,sample_count,mean_compliance_percent,median_compliance_percent,stddev_compliance_percent,ci95_lower,ci95_upper
+Direct API,5,100,100,0,100,100
+Event Projection,5,98.17906666666667,100,4.071730715828614,94.61003733333334,101.748096
+Batch Replication,5,100,100,0,100,100
+Hybrid,5,99.39066666666666,100,1.362510754289872,98.19637333333333,100.58496

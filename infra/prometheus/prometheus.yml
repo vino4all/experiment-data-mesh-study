@@ -1,0 +1,28 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'client-service'
+    static_configs:
+      - targets: ['client-service:3001']
+    metrics_path: '/metrics'
+
+  - job_name: 'orders-service'
+    static_configs:
+      - targets: ['orders-service:3002']
+    metrics_path: '/metrics'
+
+  - job_name: 'orders-projection-consumer'
+    static_configs:
+      - targets: ['orders-projection-consumer:3003']
+    metrics_path: '/metrics'
+
+  - job_name: 'batch-sync-worker'
+    static_configs:
+      - targets: ['batch-sync-worker:3004']
+    metrics_path: '/metrics'
