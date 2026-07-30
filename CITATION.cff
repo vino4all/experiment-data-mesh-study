@@ -7,9 +7,21 @@ type: software
 authors:
   - family-names: "Author"
     given-names: "Given"
-    orcid: "ORCID pending"
-conference:
-  name: "ICITCE 2026"
-doi: "DOI pending"
-repository-code: "Repository URL pending"
+abstract: "Reproducibility artifact for a Docker-based experimental evaluation of cross-domain data synchronization architectures under consistency and failure constraints."
+keywords:
+  - data mesh
+  - data synchronization
+  - event-driven architecture
+  - batch replication
+  - reproducibility artifact
 license: "MIT"
+preferred-citation:
+  type: conference-paper
+  title: "Experimental Evaluation of Cross-Domain Data Synchronization Architectures Under Consistency and Failure Constraints"
+  authors:
+    - family-names: "Author"
+      given-names: "Given"
+  conference:
+    name: "ICITCE 2026"
+  year: 2026
+  notes: "Proceedings DOI, final author metadata, and repository URL pending."
