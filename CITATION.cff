@@ -4,24 +4,33 @@ title: "Experimental Evaluation of Cross-Domain Data Synchronization Architectur
 version: "v1.0.0"
 date-released: "2026-07-30"
 type: software
+
 authors:
-  - family-names: "Author"
-    given-names: "Given"
+  - family-names: "Arputharaj"
+    given-names: "Vinothkumar"
+
 abstract: "Reproducibility artifact for a Docker-based experimental evaluation of cross-domain data synchronization architectures under consistency and failure constraints."
+
 keywords:
-  - data mesh
+  - distributed systems
   - data synchronization
   - event-driven architecture
   - batch replication
+  - microservices
   - reproducibility artifact
+
 license: "MIT"
+
+repository-code: "https://github.com/vino4all/experiment-data-mesh-study"
+doi: "10.5281/zenodo.21710661"
+
 preferred-citation:
   type: conference-paper
   title: "Experimental Evaluation of Cross-Domain Data Synchronization Architectures Under Consistency and Failure Constraints"
   authors:
-    - family-names: "Author"
-      given-names: "Given"
+    - family-names: "Arputharaj"
+      given-names: "Vinothkumar"
   conference:
-    name: "ICITCE 2026"
+    name: "2026 International Conference on Intelligent Technology and Computer Engineering"
   year: 2026
-  notes: "Proceedings DOI, final author metadata, and repository URL pending."
+  notes: "Accepted for presentation at ICITCE 2026. Proceedings DOI pending."
